@@ -23,8 +23,9 @@ body{
     flex-direction: column;
     align-items: center;
     min-height: 50vh;
-    max-height: 50vh;
+    max-height: auto;
     min-width: 20vw;
+    
     /* max-width: 50vw; */
     background-color: #fff;
     border-radius: 9px;
@@ -71,6 +72,9 @@ button{
    width: 3.5rem;
    border-radius: 0.6rem;
 }
+#btnEnter{
+    font-size: 1.3rem;
+}
 
 button[name="num"]{
     background-color: rgba(10, 96, 181, 0.7); 
@@ -103,4 +107,9 @@ button[name="funtion"]:hover{
     background-color: rgba(163, 119, 235, 0.7);
     border-color: rgba(163, 119, 235, 0.7);
     color: rgb(255, 241, 201);
+}
+button[name="num"]:hover{
+    background-color: rgba(15, 76, 146, 0.7);
+    border-color: rgba(60, 119, 136, 0.7);
+    color: rgba(250, 235, 193, 0.815);
 }
